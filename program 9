@@ -1,0 +1,18 @@
+program 9:-
+input:-
+#include <stdio.h>
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+    if(a > b)
+        printf("%d", a);
+    else
+        printf("%d", b);
+    return 0;
+}
+output:-
+enter a num:-
+10
+20
+largest number:-20
