@@ -1,0 +1,31 @@
+program 10:-
+input:-
+#include <stdio.h>
+int main() 
+{
+    float a, b;
+    char op;
+    scanf("%f %c %f", &a, &op, &b);
+    switch(op) 
+    {
+        case '+': printf("%f", a + b); break;
+        case '-': printf("%f", a - b); break;
+        case '*': printf("%f", a * b); break;
+        case '/': printf("%f", a / b); break;
+        case '%': printf("%f", a % b); break;
+        default: printf("Invalid operator");
+    }
+    return 0;
+}
+ouput:-
+enter a case:-
+5+5=10
+enter a case:-
+5-5=0
+enter a case:-
+5*5=25
+enter a case:-
+5/5=1
+enter a case:-
+5%5=0
+
