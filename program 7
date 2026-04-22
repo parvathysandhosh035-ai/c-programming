@@ -1,0 +1,15 @@
+program 7:-
+input:-
+#include <stdio.h>
+int main() 
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d", a + b);
+    return 0;
+}
+output:-
+enter a number:-
+5
+3
+5+3=8
