@@ -1,0 +1,10 @@
+program 6:-
+input:-
+#include <stdio.h>
+int main() 
+{
+    printf("Hello, World!");
+    return 0;
+}
+output:-
+Hello, World!
