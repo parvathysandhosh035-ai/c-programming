@@ -1,0 +1,7 @@
+input:
+def count_words(sentence):
+    words = sentence.split()
+    return len(words)
+    output:
+    count_word:3
+    "Hello world python"
